@@ -13,27 +13,25 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Tao Te Ching</a>
+      <a class="navbar-brand" href="{% url 'home' %}">Tao Te Ching</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="{% url 'about' %}">About</a>
+            <a class="nav-link" href="{% url 'about' %}">Lao Tzu</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Books
-            </a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Books on Taoism</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Tao Te Ching</a>
-              <a class="dropdown-item" href="#">The Tao of Joy Everyday</a>
-              <a class="dropdown-item" href="#">The Tao of Pooh</a>
+              <a class="dropdown-item" target="_blank" href="https://www.amazon.com/gp/product/1690029994/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">Tao Te Ching</a>
+              <a class="dropdown-item" target="_blank" href="https://www.amazon.com/gp/product/158542918X/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">The Tao of Joy Everyday</a>
+              <a class="dropdown-item" target="_blank" href="https://www.amazon.com/gp/product/0416199259/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">The Tao of Pooh</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'contact' %}">Contact</a>
           </li>
         </ul>
       </div>
