@@ -1,10 +1,18 @@
-<style>
-  @font-face {
-    font-family: 'Gyosho';
-    src: url("../fonts/gyosho.ttf") format("truetype");
-  }
+@font-face {
+  font-family: 'Gyosho';
+  src: url("../fonts/gyosho.ttf") format("truetype");
+}
 
-  body {
-  font-family: "Baskerville Old Face";
-  }
-</style>
+* {
+  color: #000;
+}
+
+body {
+  font-family: Gyosho, "Baskerville Old Face";
+}
+
+img {
+  height: 700px;
+  width: auto;
+  max-width: 100%;
+}
