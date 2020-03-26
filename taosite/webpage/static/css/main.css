@@ -1,0 +1,10 @@
+<style>
+  @font-face {
+    font-family: 'Gyosho';
+    src: url("../fonts/gyosho.ttf") format("truetype");
+  }
+
+  body {
+  font-family: "Baskerville Old Face";
+  }
+</style>
