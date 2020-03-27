@@ -9,10 +9,11 @@
 
 body {
   font-family: Gyosho, "Baskerville Old Face";
+  font-size: 1.19vw;
 }
 
 img {
-  height: 700px;
+  height: 750px;
   width: auto;
   max-width: 100%;
 }
