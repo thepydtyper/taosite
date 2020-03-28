@@ -1,0 +1,3 @@
+HOW TO HELP
+
+If you know a way to make the Bootstrap caroseul images adjust their height automatically depending on the lenght of the text for each screen, please let me know!
